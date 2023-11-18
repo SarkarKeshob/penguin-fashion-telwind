@@ -19,12 +19,18 @@
 </head>
 <body>
     <header>
-        <nav>
-            <section id="logo">
-
+        <nav class="grid md:grid-cols-6 items-center">
+            <section id="logo" class="md:col-span-1">
+                <img src="icons/logo.png" alt="">
             </section>
-            <section id="menu">
-
+            <section id="gap" class="md:col-span-2"></section>
+            <section id="menu" class="md:col-span-3 .roboto">
+                <ul class="justify-evenly md:flex  ">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
             </section>
         </nav>
 
@@ -142,9 +148,9 @@
 
     </main>
     <footer >
-        <section class="grid items-end content-end  md:grid-cols-3 gap-10 ">
-            <div id="left" class="md:col-span-1">
-                <div class="fcontainer flex ">
+        <section class="grid  md:grid-cols-2 gap-10 ">
+            <div id="left" class="">
+                <div class="fcontainer flex items-center gap-6 ">
                     <div class="fimage">
                         <img src="icons/house.png" alt="">
                     </div>
@@ -154,7 +160,7 @@
                             offer styles for every body.</p>
                     </div>
                 </div>
-                <div class="fcontainer flex ">
+                <div class="fcontainer flex items-center gap-6 ">
                     <div class="fimage">
                         <img src="icons/box.png" alt="">
                     </div>
@@ -164,7 +170,7 @@
                             with peace of mind.</p>
                     </div>
                 </div>
-                <div class="fcontainer flex ">
+                <div class="fcontainer flex items-center gap-6 ">
                     <div class="fimage">
                         <img src="icons/question.png" alt="">
                     </div>
@@ -176,7 +182,7 @@
                 </div>
                 
             </div>
-            <div id="right" class="col-span-2">
+            <div id="right" class="">
                 <img src="images/shopping.png" alt="">
             </div>
         </section>

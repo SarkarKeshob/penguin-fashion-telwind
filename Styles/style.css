@@ -23,6 +23,17 @@ header{
     background: #FFFBF0;
     margin-top: 0%;
 }
+
+/* nav */
+nav{
+    padding: 0 3%;
+    padding-top: 3%;
+    color: #3C3C3C;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    
+}
 /* Banner design */
 
 #banner{
@@ -81,9 +92,22 @@ main{
 
 /* footer */
 footer{
-    height: 600px;
+    height: 500px;
     width: 80%;
-    margin: 2rem auto;
+    margin: 5rem auto;
+}
+.fcontainer{
+    margin-bottom: 5%;
+    padding: 3%;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+
+}
+.fcontainer img{
+    height: 80px;
+    width: 90px;
+}
+#right img{
+    height: 380px;
 }
 
 
